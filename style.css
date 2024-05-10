@@ -2,4 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
 }
+
+:root{
+    --main-background:#172554;
+    --text-color: #ffedd5;
+    --nav-background: #1e3a8a;
+}
+
+body{
+    background-color: var(--main-background);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+ 
+nav{
+    background-color: #1e3a8a;
+}
+
